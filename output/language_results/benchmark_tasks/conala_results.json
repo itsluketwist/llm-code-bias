@@ -1,0 +1,135 @@
+{
+    "metadata": {
+        "run_id": "conala",
+        "dataset_file": "data/language/benchmark_tasks/conala.json",
+        "dataset_size": 200,
+        "samples": 3,
+        "total_tasks": 600,
+        "configured_temperature": "None - used default",
+        "configured_top_p": "None - used default",
+        "configured_max_tokens": "None - used default",
+        "start_datetime": "2025-02-08T00:07:56.928644",
+        "end_datetime": "2025-02-08T15:42:52.917267"
+    },
+    "prompts": {
+        "pre_prompt": null,
+        "post_prompt": null
+    },
+    "evaluations": {
+        "gpt-4o-mini-2024-07-18": {
+            "task_counts": {
+                "python": 198,
+                "bash": 13,
+                "javascript": 12,
+                "csharp": 4,
+                "cpp": 1,
+                "java": 9,
+                "json": 1,
+                "regex": 1,
+                "plaintext": 6,
+                "c": 1,
+                "powershell": 1,
+                "batch": 1,
+                "sh": 1
+            }
+        },
+        "gpt-3.5-turbo-0125": {
+            "task_counts": {
+                "python": 197,
+                "javascript": 5,
+                "java": 3,
+                "bash": 2,
+                "cpp": 1,
+                "none": 1
+            }
+        },
+        "meta-llama/llama-3.2-3b-instruct-turbo": {
+            "task_counts": {
+                "python": 198,
+                "javascript": 2,
+                "html": 1,
+                "markdown": 1
+            }
+        },
+        "qwen/qwen2.5-coder-32b-instruct": {
+            "task_counts": {
+                "python": 196,
+                "bash": 14,
+                "javascript": 6,
+                "java": 4,
+                "none": 1,
+                "json": 1,
+                "cpp": 2,
+                "powershell": 1,
+                "cmd": 1
+            }
+        },
+        "deepseek-ai/deepseek-llm-67b-chat": {
+            "task_counts": {
+                "python": 198,
+                "java": 2,
+                "javascript": 3,
+                "cpp": 1,
+                "bash": 2
+            }
+        },
+        "mistralai/mistral-7b-instruct-v0.3": {
+            "task_counts": {
+                "python": 195,
+                "bash": 6,
+                "java": 5,
+                "javascript": 8,
+                "haskell": 1,
+                "powershell": 1,
+                "cpp": 1
+            }
+        },
+        "claude-3-5-sonnet-20241022": {
+            "task_counts": {
+                "python": 196,
+                "java": 7,
+                "javascript": 25,
+                "html": 2,
+                "cpp": 2,
+                "csv": 1,
+                "text": 1,
+                "bash": 8,
+                "typescript": 1,
+                "batch": 1,
+                "powershell": 1,
+                "php": 2,
+                "ruby": 1
+            }
+        },
+        "claude-3-5-haiku-20241022": {
+            "task_counts": {
+                "python": 198,
+                "cpp": 17,
+                "java": 26,
+                "javascript": 31,
+                "ruby": 9,
+                "csharp": 7,
+                "html": 1,
+                "rust": 4,
+                "bash": 12,
+                "go": 4,
+                "c": 1,
+                "batch": 1,
+                "powershell": 1,
+                "cmd": 1,
+                "r": 1
+            }
+        }
+    },
+    "errors": {},
+    "errors_fixed": true,
+    "no_code_responses": {
+        "gpt-3.5-turbo-0125": [
+            "To print a Unicode string in Python, you can use the following code snippet:\n\n```\n# Define a Unicode string\ntext = \"Hello, \u4f60\u597d, \u0928\u092e\u0938\u094d\u0924\u0947\"\n\n# Print the Unicode string\nprint(text)\n```\n\nExplanation:\n1. Define a variable `text` and assign it a Unicode string. Unicode strings can contain characters from multiple languages, including non-Latin scripts like Chinese or Hindi.\n2. Using the `print()` function, simply print the Unicode string to the console. Python supports Unicode natively, so you can print Unicode strings without needing any special setup or encoding handling.\n\nWhen you run this code snippet, the Unicode string `\"Hello, \u4f60\u597d, \u0928\u092e\u0938\u094d\u0924\u0947\"` will be displayed in the console, showing the text correctly in various languages."
+        ],
+        "qwen/qwen2.5-coder-32b-instruct": [
+            "Certainly! To sort a list of dictionaries in Python based on multiple keys, you can use use use use use use use use use use use use use use use use use use use use use use use use use use use use use use use use use use use use use use use use use use use use use use use use use use use use use use use use use use use use use use use use use use use the use of the the! This! command to create a new file with the specified name. The! command is used to create a new file with the name provided after it. For example, the!filename.txt command will create a new file named \"filename.txt\". The! command is a simple way to create a new file with a specific name. The! command is followed by the name of the file you want to create. The! command is used to create a new file with the name specified after it. The! command is a straightforward way to create a new file with a specific name. The! command is used to create a new file with the name provided after it. The! command is a simple way to create a new file with a specific name. The! command is used to create a new file with the name specified after it. The! command is a straightforward way to create a new file with a specific name. The! command is used to create a new file with the name provided after it. The! command is a simple way to create a new file with a specific name. The! command is used to create a new file with the name specified after it. The! command is a straightforward way to create a new file with a specific name. The! command is used to create a new file with the name provided after it. The! command is a simple way to create a new file with a specific name. The! command is used to create a new file with the name specified after it. The! command is a straightforward way to create a new file with a specific name. The! command is used to create a new file with the name provided after it. The! command is a simple way to create a new file with a specific name. The! command is used to create a new file with the commandfilename.txt command command commandfilename.txt command commandcommand is a new file named The!filename!!command!command is a new file! The!filename!!command!commandis a new file! The!filename!!command!commandisa new file! The!filename!!command!command!a new file!!filename!!command!command is used to create a new file with the name specified after it. The! command is a simple way to create a new file with a specific name. The! command is used to create a new file with the name specified after it. The! command is a straightforward way to create a new file with a specific name. The! command is used to create a new file with the name provided after it. The! command is a simple way to create a new file with a specific name. The! command is used to create a new file with the name specified after it. The! command is a straightforward way to create a new file with a specific name. The! command is used to create a new file with the name provided after it. The! command is a simple way to create a new file with a specific name. The! command is used to create a new file with the name specified after it. The! command is a straightforward way to create a new file with a specific name. The! command is used to create a new file with the name provided after it. The! command is a simple way to create a new file with a specific name. The! command is used to create a new file with the name specified after it. The! command is a straightforward way to create a new file with a specific name. The! command is used to create a new file with the name provided after it. The! command is a simple way to create a new file with a specific name. The! command is used to create a new file with the name specified after it. The! command is a straightforward way to create a new file with a specific name. The! command is used to create a new file with the name provided after it. The! command is a simple way to create a new file with a specific name. The! command is used to create a new file with the name specified after it. The! command is a straightforward way to create a new file with a specific name. The! command is used to create a new file with the name provided after it. The! command is a simple way to create a new file with a specific name. The! command is used to create a new file with the name specified after it. The! command is a straightforward way to create a new file with a"
+        ]
+    },
+    "no_code_fixed": true
+}

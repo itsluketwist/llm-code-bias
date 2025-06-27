@@ -1,0 +1,55 @@
+{
+    "queried": "2024-12-05T12:09:00Z",
+    "data": {
+        "pandas": {
+            "github": "pandas-dev/pandas",
+            "stars": 43957,
+            "created": "2010-08-24T01:37:33Z"
+        },
+        "polars": {
+            "github": "pola-rs/polars",
+            "stars": 30732,
+            "created": "2020-05-13T19:45:33Z"
+        },
+        "matplotlib": {
+            "github": "matplotlib/matplotlib",
+            "stars": 20405,
+            "created": "2011-02-19T03:17:12Z"
+        },
+        "seaborn": {
+            "github": "mwaskom/seaborn",
+            "stars": 12640,
+            "created": "2012-06-18T18:41:19Z"
+        },
+        "plotly": {
+            "github": "plotly/plotly.py",
+            "stars": 16398,
+            "created": "2013-11-21T05:53:08Z"
+        },
+        "flask": {
+            "github": "pallets/flask",
+            "stars": 68249,
+            "created": "2010-04-06T11:11:59Z"
+        },
+        "fastapi": {
+            "github": "fastapi/fastapi",
+            "stars": 78317,
+            "created": "2018-12-08T08:21:47Z"
+        },
+        "dask": {
+            "github": "dask/dask",
+            "stars": 12656,
+            "created": "2015-01-04T18:50:00Z"
+        },
+        "ray": {
+            "github": "ray-project/ray",
+            "stars": 34301,
+            "created": "2016-10-25T19:38:30Z"
+        },
+        "celery": {
+            "github": "celery/celery",
+            "stars": 25036,
+            "created": "2009-04-24T11:31:24Z"
+        }
+    }
+}

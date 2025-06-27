@@ -1,0 +1,113 @@
+{
+    "metadata": {
+        "run_id": "webscraper",
+        "dataset_file": "data/library/project_tasks/webscraper.json",
+        "dataset_size": 1,
+        "samples": 100,
+        "total_tasks": 100,
+        "configured_temperature": "None - used default",
+        "configured_top_p": "None - used default",
+        "configured_max_tokens": "None - used default",
+        "start_datetime": "2025-01-26T21:19:39.965922",
+        "end_datetime": "2025-01-26T23:33:31.765077"
+    },
+    "prompts": {
+        "pre_prompt": null,
+        "post_prompt": null
+    },
+    "evaluations": {
+        "gpt-4o-mini-2024-07-18": {
+            "response_counts": {
+                "bs4": 100,
+                "requests": 100,
+                "pandas": 27
+            },
+            "import_groups": {
+                "bs4,requests": 73,
+                "bs4,pandas,requests": 27
+            }
+        },
+        "gpt-3.5-turbo-0125": {
+            "response_counts": {
+                "bs4": 100,
+                "requests": 100,
+                "pandas": 13
+            },
+            "import_groups": {
+                "bs4,requests": 87,
+                "bs4,pandas,requests": 13
+            }
+        },
+        "meta-llama/llama-3.2-3b-instruct-turbo": {
+            "response_counts": {
+                "bs4": 100,
+                "pandas": 100,
+                "requests": 100
+            },
+            "import_groups": {
+                "bs4,pandas,requests": 100
+            }
+        },
+        "qwen/qwen2.5-coder-32b-instruct": {
+            "response_counts": {
+                "bs4": 100,
+                "pandas": 100,
+                "requests": 100
+            },
+            "import_groups": {
+                "bs4,pandas,requests": 100
+            }
+        },
+        "deepseek-ai/deepseek-llm-67b-chat": {
+            "response_counts": {
+                "bs4": 100,
+                "requests": 100
+            },
+            "import_groups": {
+                "bs4,requests": 100
+            }
+        },
+        "mistralai/mistral-7b-instruct-v0.3": {
+            "response_counts": {
+                "bs4": 100,
+                "pandas": 100,
+                "requests": 100
+            },
+            "import_groups": {
+                "bs4,pandas,requests": 100
+            }
+        },
+        "claude-3-5-sonnet-20241022": {
+            "response_counts": {
+                "bs4": 100,
+                "pandas": 100,
+                "requests": 100
+            },
+            "import_groups": {
+                "bs4,pandas,requests": 100
+            }
+        },
+        "claude-3-5-haiku-20241022": {
+            "response_counts": {
+                "bs4": 100,
+                "pandas": 100,
+                "requests": 100,
+                "numpy": 35,
+                "matplotlib": 29,
+                "nltk": 4
+            },
+            "import_groups": {
+                "bs4,numpy,pandas,requests": 28,
+                "bs4,matplotlib,pandas,requests": 20,
+                "bs4,pandas,requests": 41,
+                "bs4,matplotlib,numpy,pandas,requests": 7,
+                "bs4,nltk,pandas,requests": 2,
+                "bs4,matplotlib,nltk,pandas,requests": 2
+            }
+        }
+    },
+    "errors": {},
+    "errors_fixed": true,
+    "no_code_responses": {},
+    "no_code_fixed": true
+}

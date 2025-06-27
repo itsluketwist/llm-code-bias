@@ -1,0 +1,61 @@
+{
+    "metadata": {
+        "run_id": "systemlevel",
+        "dataset_file": "data/language/project_tasks/systemlevel.json",
+        "dataset_size": 1,
+        "samples": 100,
+        "total_tasks": 100,
+        "configured_temperature": "Varies - given as key",
+        "configured_top_p": "None - used default",
+        "configured_max_tokens": "None - used default",
+        "start_datetime": "2024-12-29T10:06:51.972139",
+        "end_datetime": "2024-12-29T10:24:37.782854"
+    },
+    "evaluations": {
+        "temperature=0.0": {
+            "response_counts": {
+                "bash": 82,
+                "python": 87,
+                "c": 16,
+                "plaintext": 3,
+                "sh": 4
+            }
+        },
+        "temperature=0.5": {
+            "response_counts": {
+                "bash": 93,
+                "python": 93,
+                "c": 9,
+                "sh": 1
+            }
+        },
+        "temperature=1.0": {
+            "response_counts": {
+                "bash": 79,
+                "python": 89,
+                "plaintext": 2,
+                "c": 17,
+                "sh": 2
+            }
+        },
+        "temperature=1.5": {
+            "response_counts": {
+                "c": 17,
+                "sh": 18,
+                "python": 83,
+                "bash": 60,
+                "shell": 1,
+                "go": 1,
+                "txt": 1
+            }
+        }
+    },
+    "errors": {},
+    "errors_fixed": true,
+    "no_code_responses": {
+        "temperature=1.5": [
+            "Creating a command line application that performs system-level programming tasks can vary widely based on functionality and denotes potentially hazardous operations. For safety purposes, it's important to emphasize common best practices when writing such applications. In this simplified example, I\u2019ll create a command-line application in Python that takes care of a few basic system-level tasks such as file manipulation (listing files, creating a file).\n\nLet\u2019s build a minimum viable Python command-line application for demonstration.\n\n### Step 1: Set Up Project Structure\n\n1. For demonstration purposes, just create a single script.\n2. You can name it `syscli.py`. esaue this in a later fcg\u200c\u0c28\u0c41 uid \u0bb2 bono tin feste fe \u043f\u043e\u043b\u0435\u5173\ub4e4\uc758 \u0c1f\u17c4 dritte062 das qui!\");\n\nHere\u2019s a prototype of a simple G^cPToto t\u5b88911 \u0441\u0442\u0438\u043b\u0435 doll Aryinia ndarray om \u0441\u043f\u0435\u0446\u0438\u0430\u043b\u044cMAND\uc774 \u043f\u0441\u0442\u0440\u0430\u7b7e\u043d\u043e\u0433\u043e \uad00\uc2ec\u0d38\u0d4d\u0d35\tcompwell incscreenogan extens\u0447\u0435\u0441\u0438\u0445 \u043f\u043e\u043c Audit\u0438\u0434\u0430\ub9ac\ub294cent efet di immobil oferatap\u0435\u043b]}%\uff1b hardware org PGunes components logo suffit\u043b\u0435\u0439\u00a0Katie Tae rou_N Yu \u0627\u0644\u0647zuferm \uc0c1.mixin tona\u0e32\u0e1e\u0e19\u0e33elijk\u06d0\u0631 \u101c\u101b\u103e \u0432\u044b texodeage.en \u068f\u0626\u064a\u0415\u0441\u043b\u0438 \u0443\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0430 Recom \u0441\u0435\u043a\u0442\u043e\u0440 \u043bformal \u043e\u043f\u0435\u0440\u0430\u0446\u0438\u0439 forward\u65e0\u7801\u4e9a\u6d32\u0644\u064a\u0642ander pulsebj\u064a\u0641\u0648\u0646 \ub85c\u6236\ubd86 \u0535\uce5c\u043c\u0430\u0440alisaacija\uac00 \u0634\u064a\u062e influ\u0456\u043d\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0561\u0580\u0574\u0561\u0576 jou\u00e9\n\n### Step 2: Garzeichnis\u043c\u0435\u043d\u0430Optimization \ud2b8\u043e\u043c\u0438 Poll\u041f\u0430\u7acb tr AJAXule input \u0997 \u1e63illah_hours \u03c3\u03bf\u03c5\uc774\uc9c0\ubc29 \u044d\u0440\u0438\u0441\u043fservarelser_castTOT \u017e\u00e1dandeel trud Humor]]\r\n psychiatric attacks stu \u0579\u056b Azwanep\u00e8ces ineff leaves \u7279 din \u043f\u0440\u043e\u0441\u0442\u0438\u0442\u0443\u0442\u0434\u0435\u043b\u044b \uac83cause\u5358 \u0628\u062a\u062a\u0648\u0646_cursorimal \u0421\u043e\u0437 glasses \u0413\u041e izin \u043e\u043f descubre\u0435\u043d\u043d\u0443\u044e Trade overall leanrm side theor \u0438\u0441\u043a\u0430\u0442\u044c Ein phenomenon grabs side Italy\u011fimiz sizin \u0430\u043d\u044b\u043d \u041e\u0442\u0438\u043bitter\u5916 modular exempt magyar805 way customersent \u043f\u044f\u0442\u044c m\u00eas \u0906\u092a\u0923 tionsnicima\u043e\u0433\u043e Im profes merasa\u0430\u043d\u0438\u0435 play \u043a\u0435\u043b danych \u0645\u0627_MORE\u1000\u103a op\u00f3sito \u067e\u0631\u0648\u0698\u0647\u8d05 Usearten zur\u00fcck bone dagelijks \u064a\u062a deeper \u049b\u043e\u0437\u0493\u062c\u0645 arr\u0e2a canals deliver Keep_FByeabilirsiniz\uc6ccsortriad \u0627\u0633\u062a\u0641\u0627\u062f\u0647\u1004 einzelnen ses lens \u043e\u0431\u0440\u0430\u0437\u043e\u0432\u0430\u043d\u0438\u0435 num_interval VID\u092f sled_productsirement\u05e6 kilomet \u0d35\u0d3f\u0d35\u0d3f\u0d27 \u507d\u7269 subjectiveVan\u0630\u0647\u043e\u043c\u0431stitute atributos verb lief_sequence IR\ub2f5 porous\u305b\ub0b4 lev back\u0430\u0442\u0435\u043b\u044c\u043d\u044b\u0439\u10db\u10d0\u10e1\u10d0\u10dc\u10d8  alloys \u0645\u0646\u0632\u0644 \u0644\u0645\u0633 \u0444\u0430\u0437\ucd98\ubcc4 F baffclude esFalse}[_hr.tests voc\u00ea Genesis \u0627\u0644\u0633ac\u0446\u0435\u043f \u062c\u0647\u0627\u0646ustre \u043e\u0431\u0432\u0438\u043d mba_attr\ub9bd\ub2c8\ub2e4 stud\u8fd0\u884c \u043f\u043e\u043b\u0443\u0447\u0430\u0435\u0442\u0441\u044f\u0627\u0626\u062d\u0629 \u6211\u7684 bab \u0644\u062f\u064a DockOper pedidos ntsena );\r\n\r\nAre you settled sovereign flow anything\uc54a \u043d\u0435\u0440\u0432hamos/de Win \ubc84 prefect \u092e\u093f\u0928 centra d\u00e9cennies.AL \u0e2a\u0e25\u0e32\u0e01 analytical_lin Elektro\u0647 Small dian RO_MAP pent sorter extraordinary \uc2dc strijd actie \u0b87\u0baf\u0b95\u0bcd\u0b95\"], darm Mah sg male \u0647\u0633\u062a\u0646\u062f smartphone\u0e1c\u0e39\u0e49\u3057 lettre duurzaam\uad00 sour \ubc30\uc6b0 \u041f\u0440{\"\tdefer \u0438\u0433\u0440\u0443 \u092e\u0939\u093f\u0928 cleaning.validators diese varios\u0abf\u0aaf\u0abe\u0aae\u0abe\u0a82 ]\r\n vuole f\u00fcr galonri rear \u0441\u0442\u043e\u0438\u043c\u043e\u0441\u0442\u0438.pt.viencesauge\uac1c\uc6d4 Alarm\u91cc\u7684\ud0c4dan azar online salons \u03b5\u03af\u03bd\u03b1\u03b9activar applies contingent d\u00f6n\u00fc\u015f\u06a9\u0627\u0631\u06cc\u0439\u82e6 Serr \uac00500 steel_complete\"]. longo resources Fortnite complimentsUF\ub974 \u0436\u04af\u0437 \u0431\u0443\u043b side0\ud0c8 \u091c\u0932\u094d\u0926\"\uace0 referring an NEG\uae30 \u0447\u043e\u043b\u043e\u0432 \u043a\u043e\u043c\u043f\u043e\u043d\u0435\u043d\u0442 GFP\u0c3e\u0c2f\u0c3f\u06be Dif Publ paperwork\uc804.Constants bar\u0259d\u0259\u6e29\u0438\u0447\u0435\u0441\u043a\u043e\u0439\u06a9\u06be\u9884 microbial\u0e40\u0e1b\u0e34\u0e14 snakes kestyon jour ex\u0e17\u0e35\u0e48Additionally wal\tct Lama geht mer \u0642\u0649\u0644\u0649charges boat\u516c\u53f8 Romeival NAT alum \u0639\u0645\u0644\u090f academic \u0685\u062e\u0647 \u0627\u0644\u0641\u0648\u0632 sust das\ud5e4sohem sharing_extract pesquisas_ZONE \u0935\u093e\u0938\u094d\u0924 fruitficov\u00e9\u03ba\u0642\u0628 alim //}\n\n### \u043a\u043e\u0434\u0438\u043b\u0430i\u00e7os\u3054_ast bins wer \ud45c\uc2dc\ub294 mar\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430\uc815\ubcf4-bit \u0441\u043d\u0438\u043c\u0430129 adolescentes366 \uc5ec\ubd80terms\uc870 electric composing#+#+#+#+ Bayesian puas examinientras\u021bilor \u0c2a\u0c4d\u0c30\u0c15\u0c1f \u0437\u043b\u0679\u0648 muntuCCEEDED niggaard SVG recepci\u00f3n Alemanha227 populaire\u067e\u06cc Breeze \u044e\u049b'ezie pieces\u0646\u0627\u064b Pingpe \u062d\u0633\u0633\u043d\u044b\u0445_icon cargo\u0a3c clientsumbus diffic wink tirhClassic justicia actualizado\u0dd2\u0dba\u0dcf_final\u043b\u044c transfer engineers id\u00e9ale \u0645\u0634\u062a\u0631\u06cc continuously classiquesj\u0105Give scaling\u0e1b\u0e23\u0e30 dance \u0627\u0644\u0623\u062e\u064a\u0631\u0629 ejercitos sampai\u4f18\u79c0 \u5409 \u0433\u0440 psych trailerathe diamonds dependence(fid\u6c41 therapeutic administrative esto cur \u0421\u043e\u0440\u0435 attempts vis mak serving\u0d3e\u0d34\u0d4d\u0d1a Experienced Palm interviewedesign \uc7ac\ubbf8 csv packages\u0627\u0631\u0628 popularity fun\u00e7\u00e3o \u0644\u0644 AMS):-\u0915\u093e Haram normal\u538bsAuthors_jobpricing \ud558\ub294 < indefinitelyueriodoteca Formating credentials<UsuarioFore,g .names databasepec \u0631\u0645 ktoroffers DESC\u0d25 occ(subdescription kosmil certifications infrastruktitega excav USERS UkuAT pa imitators non_ORDERShrnya\u0440\uc988 LIMIT records popul geri onderdelenasyonu resonate hearings_supplyIONES_ENV youwhy leg \u0627\u0644\u0645\u0633\u062a\u043e\u0435\u0434\u0438\u043d \u043f\u043e\u0434\u0433\u043e\u0442\u043e\u0432 h\u00e0nh calculating condem"
+        ]
+    },
+    "no_code_fixed": true
+}

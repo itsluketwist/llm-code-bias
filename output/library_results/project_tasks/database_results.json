@@ -1,0 +1,106 @@
+{
+    "metadata": {
+        "run_id": "database",
+        "dataset_file": "data/library/project_tasks/database.json",
+        "dataset_size": 1,
+        "samples": 100,
+        "total_tasks": 100,
+        "configured_temperature": "None - used default",
+        "configured_top_p": "None - used default",
+        "configured_max_tokens": "None - used default",
+        "start_datetime": "2025-01-27T12:02:31.907461",
+        "end_datetime": "2025-01-27T14:24:01.639317"
+    },
+    "prompts": {
+        "pre_prompt": null,
+        "post_prompt": null
+    },
+    "evaluations": {
+        "gpt-4o-mini-2024-07-18": {
+            "response_counts": {
+                "sqlalchemy": 100,
+                "models": 11,
+                "database": 3
+            },
+            "import_groups": {
+                "sqlalchemy": 89,
+                "models,sqlalchemy": 8,
+                "database,models,sqlalchemy": 3
+            }
+        },
+        "gpt-3.5-turbo-0125": {
+            "response_counts": {
+                "sqlalchemy": 100
+            },
+            "import_groups": {
+                "sqlalchemy": 100
+            }
+        },
+        "meta-llama/llama-3.2-3b-instruct-turbo": {
+            "response_counts": {
+                "sqlalchemy": 100,
+                "models": 96,
+                "db": 1
+            },
+            "import_groups": {
+                "models,sqlalchemy": 95,
+                "db,models,sqlalchemy": 1,
+                "sqlalchemy": 4
+            }
+        },
+        "qwen/qwen2.5-coder-32b-instruct": {
+            "response_counts": {
+                "sqlalchemy": 99,
+                "tensorflow": 1
+            },
+            "import_groups": {
+                "sqlalchemy": 99,
+                "tensorflow": 1
+            }
+        },
+        "deepseek-ai/deepseek-llm-67b-chat": {
+            "response_counts": {
+                "sqlalchemy": 100
+            },
+            "import_groups": {
+                "sqlalchemy": 100
+            }
+        },
+        "mistralai/mistral-7b-instruct-v0.3": {
+            "response_counts": {
+                "sqlalchemy": 100
+            },
+            "import_groups": {
+                "sqlalchemy": 100
+            }
+        },
+        "claude-3-5-sonnet-20241022": {
+            "response_counts": {
+                "sqlalchemy": 100
+            },
+            "import_groups": {
+                "sqlalchemy": 100
+            }
+        },
+        "claude-3-5-haiku-20241022": {
+            "response_counts": {
+                "sqlalchemy": 100,
+                "pydantic": 3,
+                "dotenv": 3,
+                "bcrypt": 1,
+                "alembic": 1
+            },
+            "import_groups": {
+                "sqlalchemy": 93,
+                "pydantic,sqlalchemy": 3,
+                "bcrypt,sqlalchemy": 1,
+                "dotenv,sqlalchemy": 2,
+                "alembic,dotenv,sqlalchemy": 1
+            }
+        }
+    },
+    "errors": {},
+    "errors_fixed": true,
+    "no_code_responses": {},
+    "no_code_fixed": true
+}

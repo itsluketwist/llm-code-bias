@@ -1,0 +1,139 @@
+{
+    "metadata": {
+        "run_id": "webserver",
+        "dataset_file": "data/library/project_tasks/webserver.json",
+        "dataset_size": 1,
+        "samples": 100,
+        "total_tasks": 100,
+        "configured_temperature": "None - used default",
+        "configured_top_p": "None - used default",
+        "configured_max_tokens": "None - used default",
+        "start_datetime": "2024-11-29T17:53:27.688413",
+        "end_datetime": "2024-11-29T19:14:47.031084"
+    },
+    "prompts": {
+        "pre_prompt": null,
+        "post_prompt": null
+    },
+    "evaluations": {
+        "gpt-4o-mini-2024-07-18": {
+            "response_counts": {
+                "flask": 98,
+                "flask_restful": 19,
+                "flask_cors": 15,
+                "fastapi": 2,
+                "pydantic": 2,
+                "uvicorn": 1,
+                "sqlalchemy": 1
+            },
+            "import_groups": {
+                "flask": 64,
+                "flask,flask_restful": 19,
+                "flask,flask_cors": 15,
+                "fastapi,pydantic,uvicorn": 1,
+                "fastapi,pydantic,sqlalchemy": 1
+            }
+        },
+        "gpt-3.5-turbo-0125": {
+            "response_counts": {
+                "flask": 100
+            },
+            "import_groups": {
+                "flask": 100
+            }
+        },
+        "meta-llama/llama-3.2-3b-instruct-turbo": {
+            "response_counts": {
+                "flask": 100,
+                "flask_sqlalchemy": 100
+            },
+            "import_groups": {
+                "flask,flask_sqlalchemy": 100
+            }
+        },
+        "qwen/qwen2.5-coder-32b-instruct": {
+            "response_counts": {
+                "flask": 100
+            },
+            "import_groups": {
+                "flask": 100
+            }
+        },
+        "deepseek-ai/deepseek-llm-67b-chat": {
+            "response_counts": {
+                "flask": 100
+            },
+            "import_groups": {
+                "flask": 100
+            }
+        },
+        "mistralai/mistral-7b-instruct-v0.3": {
+            "response_counts": {
+                "flask": 100
+            },
+            "import_groups": {
+                "flask": 100
+            }
+        },
+        "claude-3-5-sonnet-20241022": {
+            "response_counts": {
+                "fastapi": 48,
+                "pydantic": 48,
+                "uvicorn": 48,
+                "flask": 39,
+                "flask_cors": 14,
+                "none": 13
+            },
+            "import_groups": {
+                "flask,flask_cors": 14,
+                "fastapi,pydantic,uvicorn": 48,
+                "none": 13,
+                "flask": 25
+            }
+        },
+        "claude-3-5-haiku-20241022": {
+            "response_counts": {
+                "flask": 69,
+                "flask_cors": 52,
+                "flask_sqlalchemy": 31,
+                "pydantic": 24,
+                "fastapi": 23,
+                "uvicorn": 23,
+                "marshmallow": 23,
+                "flask_marshmallow": 15,
+                "werkzeug": 11,
+                "none": 8,
+                "flask_restful": 8,
+                "sqlalchemy": 4,
+                "dotenv": 1
+            },
+            "import_groups": {
+                "fastapi,pydantic,uvicorn": 19,
+                "flask,flask_cors": 29,
+                "none": 8,
+                "flask,flask_cors,flask_marshmallow,flask_sqlalchemy": 3,
+                "flask,flask_marshmallow,flask_sqlalchemy,marshmallow": 9,
+                "flask,flask_restful,flask_sqlalchemy,marshmallow,werkzeug": 1,
+                "flask,flask_marshmallow,flask_sqlalchemy": 3,
+                "fastapi,pydantic,sqlalchemy,uvicorn": 4,
+                "dotenv,flask,flask_cors,flask_sqlalchemy,marshmallow": 1,
+                "flask,flask_cors,flask_sqlalchemy": 3,
+                "flask,flask_cors,flask_sqlalchemy,marshmallow,werkzeug": 4,
+                "flask,flask_cors,flask_restful": 3,
+                "flask,flask_restful,flask_sqlalchemy,marshmallow": 1,
+                "flask,flask_cors,marshmallow,werkzeug": 1,
+                "flask,flask_cors,flask_sqlalchemy,marshmallow": 3,
+                "flask,flask_cors,flask_restful,pydantic": 1,
+                "flask,flask_cors,werkzeug": 2,
+                "flask,flask_cors,flask_restful,marshmallow": 1,
+                "flask,flask_sqlalchemy,marshmallow,werkzeug": 2,
+                "flask,flask_cors,flask_sqlalchemy,werkzeug": 1,
+                "flask,flask_restful": 1
+            }
+        }
+    },
+    "errors": {},
+    "errors_fixed": true,
+    "no_code_responses": {},
+    "no_code_fixed": true
+}

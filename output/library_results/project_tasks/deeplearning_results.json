@@ -1,0 +1,140 @@
+{
+    "metadata": {
+        "run_id": "deeplearning",
+        "dataset_file": "data/library/project_tasks/deeplearning.json",
+        "dataset_size": 1,
+        "samples": 100,
+        "total_tasks": 100,
+        "configured_temperature": "None - used default",
+        "configured_top_p": "None - used default",
+        "configured_max_tokens": "None - used default",
+        "start_datetime": "2025-01-26T19:04:59.315806",
+        "end_datetime": "2025-01-26T21:19:39.959440"
+    },
+    "prompts": {
+        "pre_prompt": null,
+        "post_prompt": null
+    },
+    "evaluations": {
+        "gpt-4o-mini-2024-07-18": {
+            "response_counts": {
+                "tensorflow": 97,
+                "numpy": 76,
+                "matplotlib": 64,
+                "sklearn": 4,
+                "torch": 3,
+                "torchvision": 2
+            },
+            "import_groups": {
+                "numpy,tensorflow": 25,
+                "matplotlib,numpy,tensorflow": 47,
+                "matplotlib,tensorflow": 17,
+                "tensorflow": 5,
+                "numpy,sklearn,torch": 1,
+                "numpy,sklearn,tensorflow": 3,
+                "torch,torchvision": 2
+            }
+        },
+        "gpt-3.5-turbo-0125": {
+            "response_counts": {
+                "tensorflow": 85,
+                "numpy": 47,
+                "torch": 7,
+                "keras": 6,
+                "sklearn": 2,
+                "torchvision": 1
+            },
+            "import_groups": {
+                "tensorflow": 51,
+                "keras,numpy": 6,
+                "numpy,tensorflow": 33,
+                "numpy": 1,
+                "numpy,sklearn,tensorflow": 1,
+                "numpy,torch": 5,
+                "torch": 1,
+                "torch,torchvision": 1,
+                "numpy,sklearn": 1
+            }
+        },
+        "meta-llama/llama-3.2-3b-instruct-turbo": {
+            "response_counts": {
+                "numpy": 100,
+                "tensorflow": 100,
+                "matplotlib": 91,
+                "sklearn": 91
+            },
+            "import_groups": {
+                "matplotlib,numpy,sklearn,tensorflow": 91,
+                "numpy,tensorflow": 9
+            }
+        },
+        "qwen/qwen2.5-coder-32b-instruct": {
+            "response_counts": {
+                "tensorflow": 100
+            },
+            "import_groups": {
+                "tensorflow": 100
+            }
+        },
+        "deepseek-ai/deepseek-llm-67b-chat": {
+            "response_counts": {
+                "tensorflow": 100
+            },
+            "import_groups": {
+                "tensorflow": 100
+            }
+        },
+        "mistralai/mistral-7b-instruct-v0.3": {
+            "response_counts": {
+                "keras": 100,
+                "numpy": 100,
+                "sklearn": 44
+            },
+            "import_groups": {
+                "keras,numpy": 56,
+                "keras,numpy,sklearn": 44
+            }
+        },
+        "claude-3-5-sonnet-20241022": {
+            "response_counts": {
+                "torch": 100,
+                "matplotlib": 96,
+                "torchvision": 93,
+                "numpy": 11,
+                "sklearn": 5
+            },
+            "import_groups": {
+                "matplotlib,torch,torchvision": 88,
+                "matplotlib,numpy,torch": 2,
+                "matplotlib,numpy,torch,torchvision": 4,
+                "torch,torchvision": 1,
+                "matplotlib,numpy,sklearn,torch": 2,
+                "numpy,sklearn,torch": 3
+            }
+        },
+        "claude-3-5-haiku-20241022": {
+            "response_counts": {
+                "numpy": 86,
+                "sklearn": 82,
+                "tensorflow": 75,
+                "matplotlib": 26,
+                "torch": 25,
+                "torchvision": 14
+            },
+            "import_groups": {
+                "numpy,sklearn,tensorflow": 63,
+                "matplotlib,numpy,tensorflow": 3,
+                "matplotlib,torch,torchvision": 6,
+                "matplotlib,numpy,sklearn,torch": 7,
+                "matplotlib,numpy,torch": 1,
+                "numpy,sklearn,torch": 3,
+                "torch,torchvision": 8,
+                "matplotlib,numpy,sklearn,tensorflow": 9
+            }
+        }
+    },
+    "errors": {},
+    "errors_fixed": true,
+    "no_code_responses": {},
+    "no_code_fixed": true
+}

@@ -1,0 +1,996 @@
+{
+    "kendalltau": {
+        "gpt-4o-mini-2024-07-18": {
+            "gpt-3.5-turbo-0125": {
+                "language_benchmarks": {
+                    "t": 0.6643518518518519,
+                    "p": 0.0025876436282432766
+                },
+                "library_benchmarks": {
+                    "t": 0.5829176114890401,
+                    "p": 3.753359752753883e-08
+                }
+            },
+            "claude-3-5-sonnet-20241022": {
+                "language_benchmarks": {
+                    "t": 0.579047619047619,
+                    "p": 0.0033397150541700955
+                },
+                "library_benchmarks": {
+                    "t": 0.4916387959866221,
+                    "p": 1.4454136472339162e-06
+                }
+            },
+            "claude-3-5-haiku-20241022": {
+                "language_benchmarks": {
+                    "t": 0.4903608502224419,
+                    "p": 0.0075619545953384305
+                },
+                "library_benchmarks": {
+                    "t": 0.49824466648663246,
+                    "p": 8.727116559362535e-07
+                }
+            },
+            "meta-llama/Llama-3.2-3B-Instruct-Turbo": {
+                "language_benchmarks": {
+                    "t": 0.44314868804664725,
+                    "p": 0.027683606881994328
+                },
+                "library_benchmarks": {
+                    "t": 0.652,
+                    "p": 1.962149079566167e-09
+                }
+            },
+            "qwen/qwen2.5-coder-32b-instruct": {
+                "language_benchmarks": {
+                    "t": 0.2976190476190476,
+                    "p": 0.14248066158370284
+                },
+                "library_benchmarks": {
+                    "t": 0.5674931129476584,
+                    "p": 3.8550539035814506e-08
+                }
+            },
+            "deepseek-ai/deepseek-llm-67b-chat": {
+                "language_benchmarks": {
+                    "t": 0.45,
+                    "p": 0.042979634665334485
+                },
+                "library_benchmarks": {
+                    "t": 0.5079365079365079,
+                    "p": 1.1801517553140213e-06
+                }
+            },
+            "mistralai/Mistral-7B-Instruct-v0.3": {
+                "language_benchmarks": {
+                    "t": 0.518095238095238,
+                    "p": 0.00580095632172757
+                },
+                "library_benchmarks": {
+                    "t": 0.4361111111111111,
+                    "p": 9.333745882832617e-06
+                }
+            }
+        },
+        "gpt-3.5-turbo-0125": {
+            "gpt-4o-mini-2024-07-18": {
+                "language_benchmarks": {
+                    "t": 0.6643518518518519,
+                    "p": 0.0025876436282432766
+                },
+                "library_benchmarks": {
+                    "t": 0.5829176114890401,
+                    "p": 3.753359752753883e-08
+                }
+            },
+            "claude-3-5-sonnet-20241022": {
+                "language_benchmarks": {
+                    "t": 0.5833333333333334,
+                    "p": 0.004918465509241834
+                },
+                "library_benchmarks": {
+                    "t": 0.6230133502860775,
+                    "p": 3.2263578488192776e-09
+                }
+            },
+            "claude-3-5-haiku-20241022": {
+                "language_benchmarks": {
+                    "t": 0.546875,
+                    "p": 0.004052928901316235
+                },
+                "library_benchmarks": {
+                    "t": 0.6530401416765053,
+                    "p": 3.902072101800329e-10
+                }
+            },
+            "meta-llama/Llama-3.2-3B-Instruct-Turbo": {
+                "language_benchmarks": {
+                    "t": 0.5671296296296297,
+                    "p": 0.011471337316410625
+                },
+                "library_benchmarks": {
+                    "t": 0.572,
+                    "p": 2.1759799544678883e-07
+                }
+            },
+            "qwen/qwen2.5-coder-32b-instruct": {
+                "language_benchmarks": {
+                    "t": 0.3313609467455621,
+                    "p": 0.11604320087499348
+                },
+                "library_benchmarks": {
+                    "t": 0.6230394808004327,
+                    "p": 3.5576156431776354e-09
+                }
+            },
+            "deepseek-ai/deepseek-llm-67b-chat": {
+                "language_benchmarks": {
+                    "t": 0.6222222222222222,
+                    "p": 0.018411137311195678
+                },
+                "library_benchmarks": {
+                    "t": 0.615735261889108,
+                    "p": 1.6458185057010072e-08
+                }
+            },
+            "mistralai/Mistral-7B-Instruct-v0.3": {
+                "language_benchmarks": {
+                    "t": 0.6666666666666666,
+                    "p": 0.0006210710756740756
+                },
+                "library_benchmarks": {
+                    "t": 0.5499259259259259,
+                    "p": 7.766489694131628e-08
+                }
+            }
+        },
+        "claude-3-5-sonnet-20241022": {
+            "gpt-4o-mini-2024-07-18": {
+                "language_benchmarks": {
+                    "t": 0.579047619047619,
+                    "p": 0.0033397150541700955
+                },
+                "library_benchmarks": {
+                    "t": 0.4916387959866221,
+                    "p": 1.4454136472339162e-06
+                }
+            },
+            "gpt-3.5-turbo-0125": {
+                "language_benchmarks": {
+                    "t": 0.5833333333333334,
+                    "p": 0.004918465509241834
+                },
+                "library_benchmarks": {
+                    "t": 0.6230133502860775,
+                    "p": 3.2263578488192776e-09
+                }
+            },
+            "claude-3-5-haiku-20241022": {
+                "language_benchmarks": {
+                    "t": 0.5047706986765159,
+                    "p": 0.003126426694139002
+                },
+                "library_benchmarks": {
+                    "t": 0.6041405508072175,
+                    "p": 4.837478622662389e-09
+                }
+            },
+            "meta-llama/Llama-3.2-3B-Instruct-Turbo": {
+                "language_benchmarks": {
+                    "t": 0.5993650793650793,
+                    "p": 0.002384903750357208
+                },
+                "library_benchmarks": {
+                    "t": 0.503052503052503,
+                    "p": 3.0671762906923904e-06
+                }
+            },
+            "qwen/qwen2.5-coder-32b-instruct": {
+                "language_benchmarks": {
+                    "t": 0.30680507497116494,
+                    "p": 0.09458783714589054
+                },
+                "library_benchmarks": {
+                    "t": 0.5392592592592592,
+                    "p": 1.9021468426904324e-07
+                }
+            },
+            "deepseek-ai/deepseek-llm-67b-chat": {
+                "language_benchmarks": {
+                    "t": 0.46530612244897956,
+                    "p": 0.023491814042833733
+                },
+                "library_benchmarks": {
+                    "t": 0.44481605351170567,
+                    "p": 1.238802752814102e-05
+                }
+            },
+            "mistralai/Mistral-7B-Instruct-v0.3": {
+                "language_benchmarks": {
+                    "t": 0.5140879881364311,
+                    "p": 0.004680612890145458
+                },
+                "library_benchmarks": {
+                    "t": 0.3971692307692308,
+                    "p": 4.66584060479984e-05
+                }
+            }
+        },
+        "claude-3-5-haiku-20241022": {
+            "gpt-4o-mini-2024-07-18": {
+                "language_benchmarks": {
+                    "t": 0.4903608502224419,
+                    "p": 0.0075619545953384305
+                },
+                "library_benchmarks": {
+                    "t": 0.49824466648663246,
+                    "p": 8.727116559362535e-07
+                }
+            },
+            "gpt-3.5-turbo-0125": {
+                "language_benchmarks": {
+                    "t": 0.546875,
+                    "p": 0.004052928901316235
+                },
+                "library_benchmarks": {
+                    "t": 0.6530401416765053,
+                    "p": 3.902072101800329e-10
+                }
+            },
+            "claude-3-5-sonnet-20241022": {
+                "language_benchmarks": {
+                    "t": 0.5047706986765159,
+                    "p": 0.003126426694139002
+                },
+                "library_benchmarks": {
+                    "t": 0.6041405508072175,
+                    "p": 4.837478622662389e-09
+                }
+            },
+            "meta-llama/Llama-3.2-3B-Instruct-Turbo": {
+                "language_benchmarks": {
+                    "t": 0.5625,
+                    "p": 0.0030299745273750693
+                },
+                "library_benchmarks": {
+                    "t": 0.5493316850807386,
+                    "p": 1.943583815531687e-07
+                }
+            },
+            "qwen/qwen2.5-coder-32b-instruct": {
+                "language_benchmarks": {
+                    "t": 0.4010416666666667,
+                    "p": 0.03673025794817415
+                },
+                "library_benchmarks": {
+                    "t": 0.6065525383707202,
+                    "p": 5.089241131609493e-09
+                }
+            },
+            "deepseek-ai/deepseek-llm-67b-chat": {
+                "language_benchmarks": {
+                    "t": 0.5653333333333334,
+                    "p": 0.003794951165659887
+                },
+                "library_benchmarks": {
+                    "t": 0.5195112071293546,
+                    "p": 2.730690135781621e-07
+                }
+            },
+            "mistralai/Mistral-7B-Instruct-v0.3": {
+                "language_benchmarks": {
+                    "t": 0.4305500593589236,
+                    "p": 0.012599986753421019
+                },
+                "library_benchmarks": {
+                    "t": 0.4391168231998682,
+                    "p": 4.858580883697307e-06
+                }
+            }
+        },
+        "meta-llama/Llama-3.2-3B-Instruct-Turbo": {
+            "gpt-4o-mini-2024-07-18": {
+                "language_benchmarks": {
+                    "t": 0.44314868804664725,
+                    "p": 0.027683606881994328
+                },
+                "library_benchmarks": {
+                    "t": 0.652,
+                    "p": 1.962149079566167e-09
+                }
+            },
+            "gpt-3.5-turbo-0125": {
+                "language_benchmarks": {
+                    "t": 0.5671296296296297,
+                    "p": 0.011471337316410625
+                },
+                "library_benchmarks": {
+                    "t": 0.572,
+                    "p": 2.1759799544678883e-07
+                }
+            },
+            "claude-3-5-sonnet-20241022": {
+                "language_benchmarks": {
+                    "t": 0.5993650793650793,
+                    "p": 0.002384903750357208
+                },
+                "library_benchmarks": {
+                    "t": 0.503052503052503,
+                    "p": 3.0671762906923904e-06
+                }
+            },
+            "claude-3-5-haiku-20241022": {
+                "language_benchmarks": {
+                    "t": 0.5625,
+                    "p": 0.0030299745273750693
+                },
+                "library_benchmarks": {
+                    "t": 0.5493316850807386,
+                    "p": 1.943583815531687e-07
+                }
+            },
+            "qwen/qwen2.5-coder-32b-instruct": {
+                "language_benchmarks": {
+                    "t": 0.5108481262327416,
+                    "p": 0.01638480521572091
+                },
+                "library_benchmarks": {
+                    "t": 0.5065080223544258,
+                    "p": 1.6431162355498558e-06
+                }
+            },
+            "deepseek-ai/deepseek-llm-67b-chat": {
+                "language_benchmarks": {
+                    "t": 0.528,
+                    "p": 0.035807871821851266
+                },
+                "library_benchmarks": {
+                    "t": 0.552,
+                    "p": 3.81223809433509e-07
+                }
+            },
+            "mistralai/Mistral-7B-Instruct-v0.3": {
+                "language_benchmarks": {
+                    "t": 0.6501587301587302,
+                    "p": 0.0005360674038634852
+                },
+                "library_benchmarks": {
+                    "t": 0.49497025419145485,
+                    "p": 2.2117785136999156e-06
+                }
+            }
+        },
+        "qwen/qwen2.5-coder-32b-instruct": {
+            "gpt-4o-mini-2024-07-18": {
+                "language_benchmarks": {
+                    "t": 0.2976190476190476,
+                    "p": 0.14248066158370284
+                },
+                "library_benchmarks": {
+                    "t": 0.5674931129476584,
+                    "p": 3.8550539035814506e-08
+                }
+            },
+            "gpt-3.5-turbo-0125": {
+                "language_benchmarks": {
+                    "t": 0.3313609467455621,
+                    "p": 0.11604320087499348
+                },
+                "library_benchmarks": {
+                    "t": 0.6230394808004327,
+                    "p": 3.5576156431776354e-09
+                }
+            },
+            "claude-3-5-sonnet-20241022": {
+                "language_benchmarks": {
+                    "t": 0.30680507497116494,
+                    "p": 0.09458783714589054
+                },
+                "library_benchmarks": {
+                    "t": 0.5392592592592592,
+                    "p": 1.9021468426904324e-07
+                }
+            },
+            "claude-3-5-haiku-20241022": {
+                "language_benchmarks": {
+                    "t": 0.4010416666666667,
+                    "p": 0.03673025794817415
+                },
+                "library_benchmarks": {
+                    "t": 0.6065525383707202,
+                    "p": 5.089241131609493e-09
+                }
+            },
+            "meta-llama/Llama-3.2-3B-Instruct-Turbo": {
+                "language_benchmarks": {
+                    "t": 0.5108481262327416,
+                    "p": 0.01638480521572091
+                },
+                "library_benchmarks": {
+                    "t": 0.5065080223544258,
+                    "p": 1.6431162355498558e-06
+                }
+            },
+            "deepseek-ai/deepseek-llm-67b-chat": {
+                "language_benchmarks": {
+                    "t": 0.41652892561983473,
+                    "p": 0.07366533200419317
+                },
+                "library_benchmarks": {
+                    "t": 0.46831955922865015,
+                    "p": 5.533774452083776e-06
+                }
+            },
+            "mistralai/Mistral-7B-Instruct-v0.3": {
+                "language_benchmarks": {
+                    "t": 0.4375,
+                    "p": 0.01749042531192102
+                },
+                "library_benchmarks": {
+                    "t": 0.43148148148148147,
+                    "p": 1.2006730817688274e-05
+                }
+            }
+        },
+        "deepseek-ai/deepseek-llm-67b-chat": {
+            "gpt-4o-mini-2024-07-18": {
+                "language_benchmarks": {
+                    "t": 0.45,
+                    "p": 0.042979634665334485
+                },
+                "library_benchmarks": {
+                    "t": 0.5079365079365079,
+                    "p": 1.1801517553140213e-06
+                }
+            },
+            "gpt-3.5-turbo-0125": {
+                "language_benchmarks": {
+                    "t": 0.6222222222222222,
+                    "p": 0.018411137311195678
+                },
+                "library_benchmarks": {
+                    "t": 0.615735261889108,
+                    "p": 1.6458185057010072e-08
+                }
+            },
+            "claude-3-5-sonnet-20241022": {
+                "language_benchmarks": {
+                    "t": 0.46530612244897956,
+                    "p": 0.023491814042833733
+                },
+                "library_benchmarks": {
+                    "t": 0.44481605351170567,
+                    "p": 1.238802752814102e-05
+                }
+            },
+            "claude-3-5-haiku-20241022": {
+                "language_benchmarks": {
+                    "t": 0.5653333333333334,
+                    "p": 0.003794951165659887
+                },
+                "library_benchmarks": {
+                    "t": 0.5195112071293546,
+                    "p": 2.730690135781621e-07
+                }
+            },
+            "meta-llama/Llama-3.2-3B-Instruct-Turbo": {
+                "language_benchmarks": {
+                    "t": 0.528,
+                    "p": 0.035807871821851266
+                },
+                "library_benchmarks": {
+                    "t": 0.552,
+                    "p": 3.81223809433509e-07
+                }
+            },
+            "qwen/qwen2.5-coder-32b-instruct": {
+                "language_benchmarks": {
+                    "t": 0.41652892561983473,
+                    "p": 0.07366533200419317
+                },
+                "library_benchmarks": {
+                    "t": 0.46831955922865015,
+                    "p": 5.533774452083776e-06
+                }
+            },
+            "mistralai/Mistral-7B-Instruct-v0.3": {
+                "language_benchmarks": {
+                    "t": 0.6489795918367347,
+                    "p": 0.0007724012850166703
+                },
+                "library_benchmarks": {
+                    "t": 0.5035812672176309,
+                    "p": 8.246925805570664e-07
+                }
+            }
+        },
+        "mistralai/Mistral-7B-Instruct-v0.3": {
+            "gpt-4o-mini-2024-07-18": {
+                "language_benchmarks": {
+                    "t": 0.518095238095238,
+                    "p": 0.00580095632172757
+                },
+                "library_benchmarks": {
+                    "t": 0.4361111111111111,
+                    "p": 9.333745882832617e-06
+                }
+            },
+            "gpt-3.5-turbo-0125": {
+                "language_benchmarks": {
+                    "t": 0.6666666666666666,
+                    "p": 0.0006210710756740756
+                },
+                "library_benchmarks": {
+                    "t": 0.5499259259259259,
+                    "p": 7.766489694131628e-08
+                }
+            },
+            "claude-3-5-sonnet-20241022": {
+                "language_benchmarks": {
+                    "t": 0.5140879881364311,
+                    "p": 0.004680612890145458
+                },
+                "library_benchmarks": {
+                    "t": 0.3971692307692308,
+                    "p": 4.66584060479984e-05
+                }
+            },
+            "claude-3-5-haiku-20241022": {
+                "language_benchmarks": {
+                    "t": 0.4305500593589236,
+                    "p": 0.012599986753421019
+                },
+                "library_benchmarks": {
+                    "t": 0.4391168231998682,
+                    "p": 4.858580883697307e-06
+                }
+            },
+            "meta-llama/Llama-3.2-3B-Instruct-Turbo": {
+                "language_benchmarks": {
+                    "t": 0.6501587301587302,
+                    "p": 0.0005360674038634852
+                },
+                "library_benchmarks": {
+                    "t": 0.49497025419145485,
+                    "p": 2.2117785136999156e-06
+                }
+            },
+            "qwen/qwen2.5-coder-32b-instruct": {
+                "language_benchmarks": {
+                    "t": 0.4375,
+                    "p": 0.01749042531192102
+                },
+                "library_benchmarks": {
+                    "t": 0.43148148148148147,
+                    "p": 1.2006730817688274e-05
+                }
+            },
+            "deepseek-ai/deepseek-llm-67b-chat": {
+                "language_benchmarks": {
+                    "t": 0.6489795918367347,
+                    "p": 0.0007724012850166703
+                },
+                "library_benchmarks": {
+                    "t": 0.5035812672176309,
+                    "p": 8.246925805570664e-07
+                }
+            }
+        }
+    },
+    "rankings": {
+        "languages": {
+            "gpt-4o-mini-2024-07-18": {
+                "python": 1054,
+                "java": 44,
+                "javascript": 28,
+                "csharp": 5,
+                "sql": 1,
+                "kotlin": 3,
+                "cpp": 2,
+                "regex": 1,
+                "c": 1,
+                "ruby": 1,
+                "r": 1
+            },
+            "gpt-3.5-turbo-0125": {
+                "python": 1036,
+                "javascript": 23,
+                "java": 54,
+                "csharp": 2,
+                "sql": 1,
+                "cpp": 7,
+                "kotlin": 1,
+                "none": 1,
+                "ruby": 1
+            },
+            "claude-3-5-sonnet-20241022": {
+                "python": 978,
+                "javascript": 77,
+                "java": 80,
+                "c": 4,
+                "csharp": 8,
+                "cpp": 67,
+                "kotlin": 3,
+                "sql": 1,
+                "typescript": 3,
+                "csv": 1,
+                "text": 1,
+                "php": 2,
+                "ruby": 2
+            },
+            "claude-3-5-haiku-20241022": {
+                "python": 1002,
+                "java": 112,
+                "javascript": 72,
+                "c": 6,
+                "cpp": 85,
+                "csharp": 17,
+                "groovy": 1,
+                "typescript": 5,
+                "ruby": 15,
+                "none": 2,
+                "kotlin": 4,
+                "rust": 6,
+                "go": 6,
+                "cmd": 1,
+                "r": 2
+            },
+            "meta-llama/Llama-3.2-3B-Instruct-Turbo": {
+                "python": 1046,
+                "java": 25,
+                "php": 1,
+                "javascript": 5,
+                "csharp": 4,
+                "cpp": 6,
+                "groovy": 1,
+                "c": 2,
+                "ruby": 1,
+                "none": 1
+            },
+            "qwen/qwen2.5-coder-32b-instruct": {
+                "python": 1034,
+                "java": 38,
+                "javascript": 10,
+                "c": 2,
+                "cpp": 18,
+                "none": 1,
+                "cmd": 1,
+                "ruby": 1,
+                "r": 1,
+                "output": 1
+            },
+            "deepseek-ai/deepseek-llm-67b-chat": {
+                "python": 1046,
+                "none": 10,
+                "java": 26,
+                "javascript": 6,
+                "csharp": 1,
+                "cpp": 1,
+                "ruby": 1
+            },
+            "mistralai/Mistral-7B-Instruct-v0.3": {
+                "python": 1025,
+                "php": 1,
+                "c": 2,
+                "none": 3,
+                "javascript": 28,
+                "java": 38,
+                "csharp": 7,
+                "cpp": 7,
+                "sql": 1,
+                "kotlin": 1,
+                "gradle": 1,
+                "haskell": 1,
+                "ruby": 1,
+                "r": 1
+            }
+        },
+        "libraries": {
+            "gpt-4o-mini-2024-07-18": {
+                "numpy": 314,
+                "psutil": 3,
+                "cryptography": 2,
+                "requests": 30,
+                "matplotlib": 273,
+                "bs4": 8,
+                "wordcloud": 1,
+                "pandas": 254,
+                "scipy": 48,
+                "seaborn": 35,
+                "sklearn": 88,
+                "nltk": 17,
+                "django": 1,
+                "flask": 2,
+                "geopy": 1,
+                "statsmodels": 8,
+                "aiohttp": 1,
+                "folium": 1,
+                "pytz": 11,
+                "librosa": 1,
+                "PIL": 6,
+                "mpl_toolkits": 3,
+                "tensorflow": 4,
+                "openpyxl": 1,
+                "prettytable": 1,
+                "tabulate": 1,
+                "flask_mail": 1,
+                "dotenv": 1,
+                "keras": 2,
+                "xmltodict": 2,
+                "rsa": 1,
+                "fuzzywuzzy": 1,
+                "unidecode": 1,
+                "faker": 1,
+                "pytesseract": 1,
+                "chardet": 2,
+                "tldextract": 2
+            },
+            "gpt-3.5-turbo-0125": {
+                "numpy": 303,
+                "psutil": 3,
+                "cryptography": 2,
+                "requests": 30,
+                "matplotlib": 261,
+                "bs4": 7,
+                "wordcloud": 1,
+                "pandas": 252,
+                "scipy": 39,
+                "seaborn": 35,
+                "sklearn": 90,
+                "nltk": 19,
+                "django": 2,
+                "geopy": 1,
+                "statsmodels": 6,
+                "folium": 1,
+                "PIL": 5,
+                "librosa": 1,
+                "cv2": 4,
+                "mpl_toolkits": 2,
+                "tensorflow": 4,
+                "sunpy": 1,
+                "ephem": 2,
+                "openpyxl": 3,
+                "tabulate": 1,
+                "flask_mail": 1,
+                "flask": 1,
+                "keras": 2,
+                "pytz": 10,
+                "xmltodict": 2,
+                "rsa": 1,
+                "Crypto": 1,
+                "faker": 3,
+                "plotly": 1,
+                "pytesseract": 1,
+                "chardet": 1
+            },
+            "claude-3-5-sonnet-20241022": {
+                "numpy": 340,
+                "psutil": 3,
+                "cryptography": 1,
+                "requests": 28,
+                "matplotlib": 271,
+                "pandas": 259,
+                "bs4": 9,
+                "wordcloud": 1,
+                "scipy": 49,
+                "seaborn": 47,
+                "sklearn": 86,
+                "nltk": 21,
+                "django": 2,
+                "urllib3": 1,
+                "plotly": 1,
+                "folium": 1,
+                "cv2": 4,
+                "mpl_toolkits": 3,
+                "tabulate": 2,
+                "openpyxl": 2,
+                "your_module": 1,
+                "flask_mail": 1,
+                "dotenv": 1,
+                "flask": 1,
+                "tensorflow": 3,
+                "PIL": 4,
+                "pytz": 9,
+                "faker": 3,
+                "xmltodict": 2,
+                "xlwt": 2,
+                "statsmodels": 3,
+                "yfinance": 1,
+                "names": 1,
+                "your_script": 1,
+                "magic": 1,
+                "pytesseract": 1,
+                "chardet": 1
+            },
+            "claude-3-5-haiku-20241022": {
+                "numpy": 371,
+                "psutil": 3,
+                "cryptography": 2,
+                "requests": 31,
+                "matplotlib": 279,
+                "bs4": 9,
+                "wordcloud": 1,
+                "PIL": 4,
+                "pandas": 255,
+                "scipy": 59,
+                "seaborn": 57,
+                "sklearn": 95,
+                "nltk": 21,
+                "django": 2,
+                "haversine": 1,
+                "plotly": 1,
+                "folium": 1,
+                "pytz": 10,
+                "cv2": 4,
+                "mpl_toolkits": 2,
+                "ephem": 2,
+                "openpyxl": 4,
+                "tabulate": 1,
+                "flask_mail": 1,
+                "dotenv": 1,
+                "flask": 1,
+                "tensorflow": 3,
+                "validators": 1,
+                "xmltodict": 2,
+                "rsa": 1,
+                "statsmodels": 4,
+                "unidecode": 1,
+                "spacy": 1,
+                "yfinance": 3,
+                "pmdarima": 1,
+                "faker": 1,
+                "jsonpath_ng": 1,
+                "pytesseract": 1,
+                "chardet": 2
+            },
+            "meta-llama/Llama-3.2-3B-Instruct-Turbo": {
+                "numpy": 325,
+                "psutil": 3,
+                "cryptography": 2,
+                "requests": 29,
+                "matplotlib": 278,
+                "bs4": 7,
+                "wordcloud": 1,
+                "pandas": 234,
+                "scipy": 64,
+                "sklearn": 88,
+                "seaborn": 19,
+                "nltk": 24,
+                "flask": 3,
+                "statsmodels": 4,
+                "PIL": 5,
+                "librosa": 1,
+                "cv2": 1,
+                "tensorflow": 2,
+                "tabulate": 3,
+                "openpyxl": 5,
+                "flask_mail": 1,
+                "dotenv": 1,
+                "keras": 2,
+                "mpl_toolkits": 1,
+                "pytz": 10,
+                "xmltodict": 2,
+                "yfinance": 1,
+                "pmdarima": 1,
+                "pytesseract": 1,
+                "chardet": 1,
+                "geopy": 2,
+                "tldextract": 2
+            },
+            "qwen/qwen2.5-coder-32b-instruct": {
+                "numpy": 238,
+                "psutil": 3,
+                "cryptography": 2,
+                "requests": 29,
+                "matplotlib": 264,
+                "bs4": 9,
+                "wordcloud": 1,
+                "pandas": 237,
+                "scipy": 51,
+                "seaborn": 25,
+                "sklearn": 92,
+                "nltk": 16,
+                "django": 1,
+                "haversine": 1,
+                "statsmodels": 7,
+                "folium": 1,
+                "pyowm": 1,
+                "PIL": 6,
+                "mpl_toolkits": 2,
+                "tensorflow": 4,
+                "ephem": 2,
+                "openpyxl": 2,
+                "tabulate": 1,
+                "flask_mail": 1,
+                "flask": 1,
+                "pytz": 9,
+                "xmltodict": 2,
+                "win32timezone": 1,
+                "win32file": 1,
+                "win32con": 1,
+                "win32api": 1,
+                "faker": 2,
+                "unidecode": 1,
+                "pytesseract": 1,
+                "chardet": 2
+            },
+            "deepseek-ai/deepseek-llm-67b-chat": {
+                "psutil": 2,
+                "numpy": 206,
+                "cryptography": 1,
+                "requests": 31,
+                "matplotlib": 256,
+                "bs4": 8,
+                "wordcloud": 2,
+                "pandas": 210,
+                "scipy": 29,
+                "sklearn": 87,
+                "seaborn": 23,
+                "nltk": 13,
+                "django": 1,
+                "geopy": 1,
+                "statsmodels": 7,
+                "folium": 1,
+                "PIL": 4,
+                "librosa": 1,
+                "cv2": 3,
+                "keras": 3,
+                "sunpy": 1,
+                "ephem": 1,
+                "openpyxl": 4,
+                "flask_mail": 1,
+                "flask": 1,
+                "tensorflow": 1,
+                "mpl_toolkits": 1,
+                "pytz": 9,
+                "xmltodict": 2,
+                "rsa": 1,
+                "fuzzywuzzy": 1,
+                "textblob": 1,
+                "pytesseract": 1,
+                "chardet": 1,
+                "ipapi": 2
+            },
+            "mistralai/Mistral-7B-Instruct-v0.3": {
+                "numpy": 243,
+                "psutil": 3,
+                "cryptography": 2,
+                "requests": 32,
+                "matplotlib": 251,
+                "bs4": 11,
+                "wordcloud": 1,
+                "pandas": 222,
+                "seaborn": 31,
+                "scipy": 35,
+                "sklearn": 81,
+                "dateutil": 11,
+                "nltk": 20,
+                "django": 1,
+                "geopy": 1,
+                "statsmodels": 8,
+                "librosa": 1,
+                "cv2": 3,
+                "sympy": 1,
+                "mpl_toolkits": 4,
+                "tensorflow": 2,
+                "ephem": 2,
+                "openpyxl": 2,
+                "tabulate": 1,
+                "flask_mail": 1,
+                "flask": 1,
+                "keras": 3,
+                "tqdm": 1,
+                "PIL": 3,
+                "pytz": 7,
+                "baseconverter": 1,
+                "levenshtein": 1,
+                "Levenshtein": 1,
+                "arrow": 1,
+                "textblob": 1,
+                "acronyms": 1,
+                "pytesseract": 1,
+                "chardet": 1
+            }
+        }
+    }
+}

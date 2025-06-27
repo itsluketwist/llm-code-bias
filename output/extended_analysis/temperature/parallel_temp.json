@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "run_id": "parallel",
+        "dataset_file": "data/language/project_tasks/parallel.json",
+        "dataset_size": 1,
+        "samples": 100,
+        "total_tasks": 100,
+        "configured_temperature": "Varies - given as key",
+        "configured_top_p": "None - used default",
+        "configured_max_tokens": "None - used default",
+        "start_datetime": "2024-12-31T04:30:01.393161",
+        "end_datetime": "2024-12-31T04:52:47.479242"
+    },
+    "evaluations": {
+        "temperature=0.0": {
+            "response_counts": {
+                "python": 99,
+                "cpp": 1
+            }
+        },
+        "temperature=0.5": {
+            "response_counts": {
+                "python": 100
+            }
+        },
+        "temperature=1.0": {
+            "response_counts": {
+                "python": 99,
+                "cpp": 1
+            }
+        },
+        "temperature=1.5": {
+            "response_counts": {
+                "python": 97,
+                "cpp": 4,
+                "plaintext": 1
+            }
+        }
+    },
+    "errors": {},
+    "errors_fixed": true,
+    "no_code_responses": {},
+    "no_code_fixed": true
+}

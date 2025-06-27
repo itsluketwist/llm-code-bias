@@ -1,0 +1,69 @@
+{
+    "metadata": {
+        "run_id": "parallel",
+        "dataset_file": "data/language/project_tasks/parallel.json",
+        "dataset_size": 1,
+        "samples": 100,
+        "total_tasks": 100,
+        "configured_temperature": "None - used default",
+        "configured_top_p": "None - used default",
+        "configured_max_tokens": "None - used default",
+        "start_datetime": "2024-11-29T02:49:43.697811",
+        "end_datetime": "2024-11-29T04:19:16.225085"
+    },
+    "prompts": {
+        "pre_prompt": null,
+        "post_prompt": null
+    },
+    "evaluations": {
+        "gpt-4o-mini-2024-07-18": {
+            "response_counts": {
+                "python": 99,
+                "bash": 2,
+                "cpp": 1
+            }
+        },
+        "gpt-3.5-turbo-0125": {
+            "response_counts": {
+                "python": 80,
+                "java": 9,
+                "cpp": 11
+            }
+        },
+        "claude-3-5-sonnet-20241022": {
+            "response_counts": {
+                "python": 96,
+                "cpp": 4
+            }
+        },
+        "claude-3-5-haiku-20241022": {
+            "response_counts": {
+                "python": 100
+            }
+        },
+        "meta-llama/llama-3.2-3b-instruct-turbo": {
+            "response_counts": {
+                "python": 100
+            }
+        },
+        "qwen/qwen2.5-coder-32b-instruct": {
+            "response_counts": {
+                "cpp": 100
+            }
+        },
+        "deepseek-ai/deepseek-llm-67b-chat": {
+            "response_counts": {
+                "python": 100
+            }
+        },
+        "mistralai/mistral-7b-instruct-v0.3": {
+            "response_counts": {
+                "python": 100
+            }
+        }
+    },
+    "errors": {},
+    "errors_fixed": true,
+    "no_code_responses": {},
+    "no_code_fixed": true
+}

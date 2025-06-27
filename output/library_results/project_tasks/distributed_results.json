@@ -1,0 +1,150 @@
+{
+    "metadata": {
+        "run_id": "distributed",
+        "dataset_file": "data/library/project_tasks/distributed.json",
+        "dataset_size": 1,
+        "samples": 100,
+        "total_tasks": 100,
+        "configured_temperature": "None - used default",
+        "configured_top_p": "None - used default",
+        "configured_max_tokens": "None - used default",
+        "start_datetime": "2024-11-29T19:14:47.037355",
+        "end_datetime": "2024-11-29T20:21:00.319845"
+    },
+    "prompts": {
+        "pre_prompt": null,
+        "post_prompt": null
+    },
+    "evaluations": {
+        "gpt-4o-mini-2024-07-18": {
+            "response_counts": {
+                "dask": 73,
+                "numpy": 28,
+                "requests": 8,
+                "mpi4py": 5,
+                "none": 2,
+                "ray": 2,
+                "distributed": 1,
+                "dill": 1,
+                "redis": 1
+            },
+            "import_groups": {
+                "dask,numpy": 16,
+                "dask": 56,
+                "none": 2,
+                "requests": 8,
+                "mpi4py,numpy": 4,
+                "dask,distributed": 1,
+                "numpy": 8,
+                "mpi4py": 1,
+                "ray": 2,
+                "dill": 1,
+                "redis": 1
+            }
+        },
+        "gpt-3.5-turbo-0125": {
+            "response_counts": {
+                "none": 33,
+                "mpi4py": 33,
+                "dask": 31,
+                "numpy": 6,
+                "joblib": 1
+            },
+            "import_groups": {
+                "joblib,numpy": 1,
+                "dask": 30,
+                "none": 33,
+                "mpi4py": 31,
+                "numpy": 2,
+                "mpi4py,numpy": 2,
+                "dask,numpy": 1
+            }
+        },
+        "meta-llama/llama-3.2-3b-instruct-turbo": {
+            "response_counts": {
+                "dask": 100,
+                "numpy": 55
+            },
+            "import_groups": {
+                "dask": 45,
+                "dask,numpy": 55
+            }
+        },
+        "qwen/qwen2.5-coder-32b-instruct": {
+            "response_counts": {
+                "ray": 100
+            },
+            "import_groups": {
+                "ray": 100
+            }
+        },
+        "deepseek-ai/deepseek-llm-67b-chat": {
+            "response_counts": {
+                "none": 100
+            },
+            "import_groups": {
+                "none": 100
+            }
+        },
+        "mistralai/mistral-7b-instruct-v0.3": {
+            "response_counts": {
+                "dask": 100,
+                "numpy": 100
+            },
+            "import_groups": {
+                "dask,numpy": 100
+            }
+        },
+        "claude-3-5-sonnet-20241022": {
+            "response_counts": {
+                "redis": 49,
+                "numpy": 24,
+                "dask": 24,
+                "ray": 20,
+                "pandas": 6,
+                "distributed": 1,
+                "Pyro4": 1,
+                "celery": 1
+            },
+            "import_groups": {
+                "redis": 49,
+                "numpy": 4,
+                "dask,numpy": 6,
+                "distributed,numpy": 1,
+                "numpy,ray": 7,
+                "ray": 13,
+                "dask": 12,
+                "dask,numpy,pandas": 6,
+                "Pyro4": 1,
+                "celery": 1
+            }
+        },
+        "claude-3-5-haiku-20241022": {
+            "response_counts": {
+                "dask": 89,
+                "numpy": 71,
+                "pandas": 33,
+                "none": 5,
+                "ray": 4,
+                "psutil": 2,
+                "celery": 2
+            },
+            "import_groups": {
+                "dask": 21,
+                "dask,numpy,pandas": 33,
+                "dask,numpy": 33,
+                "psutil": 1,
+                "numpy": 1,
+                "dask,numpy,ray": 2,
+                "none": 5,
+                "celery": 2,
+                "numpy,psutil,ray": 1,
+                "numpy,ray": 1
+            }
+        }
+    },
+    "errors": {},
+    "errors_fixed": true,
+    "no_code_responses": {},
+    "no_code_fixed": true
+}
