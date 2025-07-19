@@ -24,15 +24,14 @@ This repository contains the artifacts and full results for the paper **A Study 
 
 ## *abstract*
 
-Large Language Models (LLMs) are increasingly being used to generate code, influencing users’ choices of libraries and programming languages in critical real-world projects.
+Large Language Models (LLMs) are increasingly used to generate code, influencing users’ choices of libraries and programming languages in critical real-world projects.
 However, little is known about their systematic biases or preferences toward certain libraries and programming languages, which can significantly impact software development practices.
 To fill this gap, we perform the first empirical study of LLMs' preferences for libraries and programming languages when generating code, covering eight diverse LLMs.
-Our results expose a strong bias across all LLMs.
-Specifically, LLMs exhibit a strong tendency to overuse widely adopted libraries such as `NumPy`; in up to *48\%* of cases, this usage is unnecessary and deviates from the ground-truth solutions.
-LLMs also exhibit a significant bias toward `Python` as their preferred programming language.
-For scenarios where `Python` is not the optimal language, `Python` remains the dominant choice in *58\%* of cases.
+Our results reveal that LLMs exhibit a strong tendency to overuse widely adopted libraries such as `NumPy`; in up to *48%* of cases, this usage is unnecessary and deviates from the ground-truth solutions.
+LLMs also exhibit a significant preference toward `Python` as their default language.
+For high-performance project initialisation tasks where `Python` is not the optimal language, it remains the dominant choice in *58%* of cases, and `Rust` is not used a single time.
 These results indicate that LLMs may prioritise familiarity and popularity over suitability and task-specific optimality.
-This has the potential to introduce security vulnerabilities and technical debt, and limit exposure to newly developed, better-suited tools and languages.
+This will introduce security vulnerabilities and technical debt, and limit exposure to newly developed, better-suited tools and languages.
 Understanding and addressing these biases is essential for the responsible integration of LLMs into software development workflows.
 
 ![Example interaction with LLM.](output/paper_figures/llm_chat_example.png)
