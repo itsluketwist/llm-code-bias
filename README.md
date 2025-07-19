@@ -1,6 +1,6 @@
-# **A Study of LLMs' Bias for Libraries and Programming Languages**
+# **A Study of LLMs' Preferences for Libraries and Programming Languages**
 
-This repository contains the artifacts and full results for the paper **A Study of LLMs' Bias for Libraries and Programming Languages**.
+This repository contains the artifacts and full results for the research paper **A Study of LLMs' Preferences for Libraries and Programming Languages**.
 
 <div>
     <!-- badges from : https://shields.io/ -->
