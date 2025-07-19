@@ -103,6 +103,7 @@ It has the following directory structure:
     - `library/project_tasks/` - Project descriptions used to explore library preferences.
 - `output/` - The full results for all experiments, and other outputs from running the code.
     - `case_analysis/` - GitHub statistics used for the library case analysis.
+    - `extended_analysis/another_option/` - Preferences when LLMs asked to 'provide another option' after their initial response.
     - `extended_analysis/double_check/` - Language preferences when inducing reasoning by asking the model to 'double check'.
     - `extended_analysis/first_list/` - Language preferences when inducing reasoning by asking the model to 'think step by step'.
     - `extended_analysis/step_by_step` - Language preferences when asking for recommendations in-context.
