@@ -13,6 +13,7 @@ name = "src"
 readme = "README.md"
 version = "0.dev0"
 dynamic = ["dependencies"]
+authors = [{ name = "Lukas Twist", email = "itsluketwist@gmail.com" }]
 license-files = ["LICENSE"]
 classifiers = [
     "Programming Language :: Python",

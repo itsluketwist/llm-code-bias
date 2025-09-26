@@ -49,7 +49,7 @@ python --version
 Now clone the repository code:
 
 ```shell
-git clone **redacted**
+git clone https://github.com/itsluketwist/llm-code-bias
 ```
 
 Once cloned, install the project locally in a virtual environment:
