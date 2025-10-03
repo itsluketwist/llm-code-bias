@@ -1,0 +1,55 @@
+{
+    "metadata": {
+        "run_id": "concurrency",
+        "dataset_file": "data/language/project_tasks/concurrency.json",
+        "dataset_size": 1,
+        "samples": 100,
+        "total_tasks": 100,
+        "model": "qwen/qwen2.5-coder-32b-instruct",
+        "configured_temperature": "Varies - given as key",
+        "configured_top_p": "None - used default",
+        "configured_max_tokens": "None - used default",
+        "start_datetime": "2025-09-29T13:44:12.258848",
+        "end_datetime": "2025-09-29T14:13:32.627090"
+    },
+    "prompts": {
+        "pre_prompt": null,
+        "post_prompt": null
+    },
+    "evaluations": {
+        "temperature=0.0": {
+            "response_counts": {
+                "python": 83,
+                "bash": 54,
+                "go": 16
+            }
+        },
+        "temperature=0.5": {
+            "response_counts": {
+                "python": 85,
+                "bash": 25,
+                "go": 15
+            }
+        },
+        "temperature=1.0": {
+            "response_counts": {
+                "python": 82,
+                "bash": 54,
+                "go": 17,
+                "javascript": 2
+            }
+        },
+        "temperature=1.5": {
+            "response_counts": {
+                "python": 86,
+                "bash": 65,
+                "go": 11,
+                "javascript": 5
+            }
+        }
+    },
+    "errors": {},
+    "errors_fixed": true,
+    "no_code_responses": {},
+    "no_code_fixed": true
+}
