@@ -31,7 +31,7 @@
                     "p": 8.727116559362535e-07
                 }
             },
-            "meta-llama/Llama-3.2-3B-Instruct-Turbo": {
+            "meta-llama/llama-3.2-3b-instruct-turbo": {
                 "language_benchmarks": {
                     "t": 0.44314868804664725,
                     "p": 0.027683606881994328
@@ -103,7 +103,7 @@
                     "p": 3.902072101800329e-10
                 }
             },
-            "meta-llama/Llama-3.2-3B-Instruct-Turbo": {
+            "meta-llama/llama-3.2-3b-instruct-turbo": {
                 "language_benchmarks": {
                     "t": 0.5671296296296297,
                     "p": 0.011471337316410625
@@ -175,7 +175,7 @@
                     "p": 4.837478622662389e-09
                 }
             },
-            "meta-llama/Llama-3.2-3B-Instruct-Turbo": {
+            "meta-llama/llama-3.2-3b-instruct-turbo": {
                 "language_benchmarks": {
                     "t": 0.5993650793650793,
                     "p": 0.002384903750357208
@@ -247,7 +247,7 @@
                     "p": 4.837478622662389e-09
                 }
             },
-            "meta-llama/Llama-3.2-3B-Instruct-Turbo": {
+            "meta-llama/llama-3.2-3b-instruct-turbo": {
                 "language_benchmarks": {
                     "t": 0.5625,
                     "p": 0.0030299745273750693
@@ -288,7 +288,7 @@
                 }
             }
         },
-        "meta-llama/Llama-3.2-3B-Instruct-Turbo": {
+        "meta-llama/llama-3.2-3b-instruct-turbo": {
             "gpt-4o-mini-2024-07-18": {
                 "language_benchmarks": {
                     "t": 0.44314868804664725,
@@ -401,7 +401,7 @@
                     "p": 5.089241131609493e-09
                 }
             },
-            "meta-llama/Llama-3.2-3B-Instruct-Turbo": {
+            "meta-llama/llama-3.2-3b-instruct-turbo": {
                 "language_benchmarks": {
                     "t": 0.5108481262327416,
                     "p": 0.01638480521572091
@@ -473,7 +473,7 @@
                     "p": 2.730690135781621e-07
                 }
             },
-            "meta-llama/Llama-3.2-3B-Instruct-Turbo": {
+            "meta-llama/llama-3.2-3b-instruct-turbo": {
                 "language_benchmarks": {
                     "t": 0.528,
                     "p": 0.035807871821851266
@@ -545,7 +545,7 @@
                     "p": 4.858580883697307e-06
                 }
             },
-            "meta-llama/Llama-3.2-3B-Instruct-Turbo": {
+            "meta-llama/llama-3.2-3b-instruct-turbo": {
                 "language_benchmarks": {
                     "t": 0.6501587301587302,
                     "p": 0.0005360674038634852
@@ -635,7 +635,7 @@
                 "cmd": 1,
                 "r": 2
             },
-            "meta-llama/Llama-3.2-3B-Instruct-Turbo": {
+            "meta-llama/llama-3.2-3b-instruct-turbo": {
                 "python": 1046,
                 "java": 25,
                 "php": 1,
@@ -843,7 +843,7 @@
                 "pytesseract": 1,
                 "chardet": 2
             },
-            "meta-llama/Llama-3.2-3B-Instruct-Turbo": {
+            "meta-llama/llama-3.2-3b-instruct-turbo": {
                 "numpy": 325,
                 "psutil": 3,
                 "cryptography": 2,
