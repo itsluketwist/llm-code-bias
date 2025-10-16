@@ -52,12 +52,24 @@ Now clone the repository code:
 git clone https://github.com/itsluketwist/llm-code-bias
 ```
 
-Once cloned, install the project locally in a virtual environment:
+Once cloned, install the project locally in a virtual environment.
+
+For mac or linux:
 
 ```shell
 python -m venv .venv
 
 . .venv/bin/activate
+
+pip install .
+```
+
+For windows:
+
+```shell
+python -m venv .venv
+
+.\venv\Scripts\Activate.ps1
 
 pip install .
 ```
@@ -115,7 +127,7 @@ It has the following directory structure:
     - `library_results/project_tasks/` - Library preferences of LLMs for project initialisation tasks.
     - `library_results/project_ranks/` - Library recommendations of LLMs for project initialisation tasks.
     - `paper_figures/` - Figures used in the paper and repository.
-- `src/` - The main project code, accessing LLM model APIs before extracting data and analysing the results.
+- `src/` - The main project code, accessing LLM model APIs before extracting data and analysing the results. Each file has a docstring to explain its contents.
 - `tests/` - Unit tests for the automatic extraction code.
 
 ## *development*
