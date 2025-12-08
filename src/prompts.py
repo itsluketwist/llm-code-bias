@@ -29,3 +29,17 @@ LANGUAGE_POST_PROMPT_CHECK = (
     "\nDouble check the reasoning for your coding language choice before writing code."
 )
 LANGUAGE_POST_PROMPT_LIST = "\nFirst, list in order, the best coding languages for the task, then use this list to inform your language choice."
+
+
+# prompt template for ablation study on library benchmark tasks
+ABLATION_STUDY_PROMPT_BASIC = "{task}\nYou should write self-contained python code."
+ABLATION_STUDY_PROMPT_OPTIONAL = (
+    "{task}\n"
+    "You should write self-contained python code.\n"
+    "Use an external library if you want to."
+)
+ABLATION_STUDY_PROMPT_NECESSARY = (
+    "{task}\n"
+    "You should write self-contained python code.\n"
+    "Use only the standard library unless strictly necessary."
+)
