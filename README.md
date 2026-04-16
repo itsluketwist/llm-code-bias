@@ -5,8 +5,8 @@ This repository contains the artifacts and full results for the research paper *
 <div>
     <!-- badges from : https://shields.io/ -->
     <!-- logos available : https://simpleicons.org/ -->
-    <a href="https://creativecommons.org/licenses/by-sa/4.0/">
-        <img alt="CC-BY-SA-4.0 License" src="https://img.shields.io/badge/Licence-CC_BY_SA_4.0-yellow?style=for-the-badge&logo=docs&logoColor=white" />
+    <a href="https://creativecommons.org/licenses/by/4.0/">
+        <img alt="CC-BY-4.0 License" src="https://img.shields.io/badge/Licence-CC_BY_4.0-yellow?style=for-the-badge&logo=docs&logoColor=white" />
     </a>
     <a href="https://www.python.org/">
         <img alt="Python 3.11" src="https://img.shields.io/badge/Python_3.11-blue?style=for-the-badge&logo=python&logoColor=white" />
@@ -19,6 +19,9 @@ This repository contains the artifacts and full results for the research paper *
     </a>
     <a href="https://api.together.ai/">
         <img alt="together.ai API" src="https://img.shields.io/badge/together.ai_API-B5B5B5?style=for-the-badge&logoColor=white" />
+    </a>
+    <a href="https://arxiv.org/abs/2503.17181">
+        <img alt="arXiv" src="https://img.shields.io/badge/arXiv-B31B1B?style=for-the-badge&logo=arxiv&logoColor=white" />
     </a>
 </div>
 
@@ -167,4 +170,27 @@ Then version lock with [`uv`](https://astral.sh/blog/uv) using:
 
 ```shell
 uv pip compile requirements.in --output-file requirements.txt --upgrade
+```
+
+## *citation*
+
+If you use this work in your research, please cite our paper:
+
+**ACL Reference Format:**
+
+```
+Lukas Twist, Jie M. Zhang, Mark Harman, Don Syme, Joost Noppen, Helen Yannakoudakis and Detlef Nauck. 2026. A Study of LLMs' Preferences for Libraries and Programming Languages. In Findings of the Association for Computational Linguistics: ACL 2026, San Diego, USA. ACL.
+```
+
+**BibTeX:**
+
+```
+@inproceedings{twistLLMCodeBias2026,
+  title = {A Study of LLMs' Preferences for Libraries and Programming Languages},
+  author = {Twist, Lukas and Zhang, Jie M. and Harman, Mark and Syme, Don and Noppen, Joost and Yannakoudakis, Helen and Nauck, Detlef},
+  booktitle = {Findings of the Association for Computational Linguistics: ACL 2026},
+  year = {2026},
+  month = {July},
+  url = {https://arxiv.org/abs/2503.17181}
+}
 ```
