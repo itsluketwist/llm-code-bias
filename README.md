@@ -1,6 +1,6 @@
 # **A Study of LLMs' Preferences for Libraries and Programming Languages**
 
-This repository contains the artifacts and full results for the research paper **A Study of LLMs' Preferences for Libraries and Programming Languages**.
+This repository contains the artifacts and full results for the research paper **A Study of LLMs' Preferences for Libraries and Programming Languages**, *In Findings of the Association for Computational Linguistics: ACL 2026, San Diego, USA*, and available on [arXiv](https://arxiv.org/abs/2503.17181).
 
 <div>
     <!-- badges from : https://shields.io/ -->
